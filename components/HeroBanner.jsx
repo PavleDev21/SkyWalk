@@ -5,11 +5,11 @@ import Wrapper from "./Wrapper"
 
 const Banner = () => {
   return (
-    <div className="h-screen w-full relative">
+    <div className="h-full-130px w-full relative">
       <Wrapper className="h-full">
         <div className="flex w-1/2 flex-col justify-center h-full items-start pl-14">
           <h1 className="text-7xl max-w-full font-bold">SKYWALK 4X4 TOUR</h1>
-          <p className="w-2/3 text-xl font-normal pb-5 pt-9">
+          <p className="w-2/3 text-xl font-normal pb-12 pt-4">
             Experience the magnificent beauty of the mountain in Biokovo Nature
             Park.
           </p>
@@ -27,6 +27,10 @@ const Banner = () => {
           }}
         />
       </div>
+      <div
+        className="bg-top absolute bottom-[-40px] left-0 w-full h-[200px]"
+        style={{ backgroundImage: 'url("/images/bottom_new.png")' }}
+      ></div>
     </div>
   )
 }

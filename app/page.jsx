@@ -5,6 +5,7 @@ import Banner from "@/components/HeroBanner"
 import Navigation from "@/components/Navigation"
 import React from "react"
 import About from "@/components/About"
+import Introduction from "@/components/Introduction"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </header>
       <main className={inter.className}>
         <Banner />
+        <Introduction />
         <About />
       </main>
     </React.Fragment>

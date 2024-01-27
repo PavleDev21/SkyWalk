@@ -44,6 +44,7 @@ body {
 
 .blured-bg::after {
   backdrop-filter: blur(20px);
+  background-color: rgba(75, 75, 75, 0.5);
   content: "";
   position: absolute;
   top: 0;
@@ -55,9 +56,14 @@ body {
 .timeline-line {
   position: absolute;
   top: 40px;
-  left: 25%;
+  left: 50%;
+  transform: translateX(-50%);
   height: calc(100% - 80px);
   width: 3px;
   background-color: #ffffff;
   border-radius: 5px;
+}
+
+.h-full-130px {
+  height: calc(100vh + 130px);
 }

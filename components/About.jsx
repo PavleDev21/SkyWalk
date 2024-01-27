@@ -11,7 +11,10 @@ const About = () => {
       className="relative bg-no-repeat	bg-cover bg-center blured-bg"
     >
       <Wrapper>
-        <div className="pl-[30%] relative z-10">
+        <h2 className="text-5xl font-bold text-center relative z-10 pb-16 pt-28">
+          Your Adventure Timeline
+        </h2>
+        <div className="relative z-10">
           <span className="timeline-line"></span>
           <TimelineCard
             imgSrc="/images/_DSC0293.jpg"
@@ -22,10 +25,11 @@ const About = () => {
             Adriatic coast into the Biokovo Nature Park."
           />
           <TimelineCard
+            reversed
             imgSrc="/images/biokovo.webp"
             imgAlt="biokovo mountain landscape"
             title="Biokovo Mountain"
-            text="Biokovo is a mountain with roots in the sea, and forehead in the clouds."
+            text="Biokovo Mountain, a natural wonder where the sea meets the sky, offers a striking landscape of diverse flora and panoramic views. Its rugged peaks and rich biodiversity provide a mesmerizing backdrop for nature enthusiasts and hikers alike."
           />
           <TimelineCard
             imgSrc="/images/horses.jpg"
@@ -34,6 +38,7 @@ const About = () => {
             text="In addition to numerous wild animals, small herds of wild horses also live on mount Biokovo.With a little bit of visitor’s luck, one might also come across wild horses.They got used to visitors ,and do not run away from people."
           />
           <TimelineCard
+            reversed
             imgSrc="/images/skywalk.jpg"
             imgAlt="view from sky walk biokovo makarska"
             title="Skywalk (1228m)"
