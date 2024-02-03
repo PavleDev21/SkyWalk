@@ -7,11 +7,16 @@ const Navigation = () => {
   return (
     <Wrapper>
       <nav className="flex justify-between py-10 px-10">
-        <Link href="#">{/* <Image /> */}</Link>
+        <Link href="#">{/* <Image /> */}Logo</Link>
         <ul className="flex gap-16">
           <li>
             <Link href="#about" className="text-xl">
               About
+            </Link>
+          </li>
+          <li>
+            <Link href="#about" className="text-xl">
+              Pricing
             </Link>
           </li>
           <li>

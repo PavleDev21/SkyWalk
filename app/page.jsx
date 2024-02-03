@@ -6,6 +6,9 @@ import Navigation from "@/components/Navigation"
 import React from "react"
 import About from "@/components/About"
 import Introduction from "@/components/Introduction"
+import Pricing from "@/components/Pricing"
+import Testimonials from "@/components/Testimonials"
+import Gallery from "@/components/Gallery"
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
         <Banner />
         <Introduction />
         <About />
+        <Pricing />
+        <Gallery />
+        <Testimonials />
       </main>
     </React.Fragment>
   )

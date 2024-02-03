@@ -53,17 +53,50 @@ body {
   height: 100%;
 }
 
-.timeline-line {
+.timeline-box {
   position: absolute;
   top: 40px;
   left: 50%;
   transform: translateX(-50%);
   height: calc(100% - 80px);
   width: 3px;
+}
+.timeline-line {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: #ffffff;
   border-radius: 5px;
 }
 
+.timeline-circle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: top 0.05s ease;
+}
+
 .h-full-130px {
   height: calc(100vh + 130px);
+}
+
+.list-bullet::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  height: 2px;
+  width: 7px;
+  background-color: #000000;
+}
+
+.flex-important {
+  display: flex !important;
 }
