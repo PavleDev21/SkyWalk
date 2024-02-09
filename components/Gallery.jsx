@@ -1,3 +1,6 @@
+"use client"
+import { useState } from "react"
+import LightBox from "./LightBox"
 import Wrapper from "./Wrapper"
 import Image from "next/image"
 
@@ -12,6 +15,13 @@ const slides = [
 ]
 
 const Gallery = () => {
+  const [isLightBoxOpen, setIsLightBoxOpen] = useState(false)
+  const [activeIndex, setActiveIndex] = useState(0)
+
+  const openLightBox = (idx) => {
+    setActiveIndex(idx)
+    setIsLightBoxOpen(true)
+  }
   return (
     <div
       style={{
@@ -36,11 +46,19 @@ const Gallery = () => {
                   fill
                   style={{ objectFit: "cover" }}
                   className="cursor-pointer"
+                  // id={`g-${idx}`}
+                  onClick={() => openLightBox(idx)}
                 />
               </div>
             </div>
           ))}
         </div>
+        <LightBox
+          slides={slides}
+          isOpened={isLightBoxOpen}
+          setIsOpened={setIsLightBoxOpen}
+          activeIndex={activeIndex}
+        />
       </Wrapper>
     </div>
   )

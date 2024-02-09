@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react"
 import Wrapper from "./Wrapper"
 import TimelineCard from "./TimelineCard"
-import BookButton from "./BookButton"
 
 const About = () => {
   const [circlePosition, setCirclePosition] = useState()
