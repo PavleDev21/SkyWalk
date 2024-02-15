@@ -12,8 +12,8 @@ const Testimonials = () => {
   return (
     <div className="bg-white py-16">
       <Wrapper>
-        <h2 className="text-center text-black text-4xl font-bold pb-24">
-          Testimonials
+        <h2 className="text-center text-black text-4xl font-bold pb-16 md:pb-24">
+          Reviews
         </h2>
         <Swiper
           spaceBetween={50}
@@ -36,60 +36,60 @@ const Testimonials = () => {
             disableOnInteraction: true,
           }}
         >
-          <SwiperSlide className="flex-important gap-9">
-            <div className="w-[65px] h-[40px] relative">
+          <SwiperSlide className="flex-important gap-[10px] md:gap-9">
+            <div className="w-[18px] md:w-[65px] h-[30px] md:h-[40px] relative">
               <Image
                 src="/icons/quotation.png"
                 style={{ objectFit: "contain" }}
                 fill
               />
             </div>
-            <div>
-              <p className="text-lg text-black pb-4">
+            <div className="w-[90%] md:w-auto">
+              <p className="text-xl md:text-lg text-black pb-4">
                 Our tour of Biokovo Mountain was nothing short of magical. The
                 Skywalk experience was breathtaking, and spotting wild horses
                 was a dream come true. A must-do for any nature lover!
               </p>
-              <p className="text-lg text-black font-medium pb-10">
+              <p className="text-xl md:text-lg text-black font-medium pb-10">
                 Elena & Marco, Italy
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="flex-important gap-9">
-            <div className="w-[65px] h-[40px] relative">
+          <SwiperSlide className="flex-important gap-[10px] md:gap-9">
+            <div className="w-[18px] md:w-[65px] h-[30px] md:h-[40px] relative">
               <Image
                 src="/icons/quotation.png"
                 style={{ objectFit: "contain" }}
                 fill
               />
             </div>
-            <div>
-              <p className="text-lg text-black pb-4">
+            <div className="w-[90%] md:w-auto">
+              <p className="text-xl md:text-lg text-black pb-4">
                 As a hiking enthusiast, I was thrilled with the trails on
                 Biokovo Mountain. The panoramic views were stunning, and the
                 guide was incredibly knowledgeable. Highly recommend!
               </p>
-              <p className="text-lg text-black font-medium pb-10">
-                Jovana, Serbia
+              <p className="text-xl md:text-lg text-black font-medium pb-10">
+                Sarah L., United Kingdom
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="flex-important gap-9">
-            <div className="w-[65px] h-[40px] relative">
+          <SwiperSlide className="flex-important gap-[10px] md:gap-9">
+            <div className="w-[18px] md:w-[65px] h-[30px] md:h-[40px] relative">
               <Image
                 src="/icons/quotation.png"
                 style={{ objectFit: "contain" }}
                 fill
               />
             </div>
-            <div>
-              <p className="text-lg text-black pb-4">
+            <div className="w-[90%] md:w-auto">
+              <p className="text-xl md:text-lg text-black pb-4">
                 I've been on many tours, but this one stands out. The beauty of
                 Makarska Riviera from the Skywalk is indescribable. It's a
                 unique way to experience Croatia's natural wonders.
               </p>
-              <p className="text-lg text-black font-medium pb-10">
-                Rachel G., USA
+              <p className="text-xl md:text-lg text-black font-medium pb-10">
+                Jovana, Serbia
               </p>
             </div>
           </SwiperSlide>

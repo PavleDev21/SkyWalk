@@ -39,7 +39,10 @@ const Introduction = () => {
           and let's hit the road! We've got scenic drives, wild horses, and even
           a walk in the clouds waiting for you.
         </p>
-        <ul ref={ref} className="flex justify-center gap-20 pt-16">
+        <ul
+          ref={ref}
+          className="flex flex-wrap justify-center gap-10 md:gap-20 pt-16"
+        >
           {springs.map((props, index) => (
             <animated.li
               key={icons[index].id}

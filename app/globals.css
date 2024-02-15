@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .nav-blur {
+    backdrop-filter: blur(20px);
+  }
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -32,6 +37,43 @@ body {
   }
 }
 
+.hamburger-icon {
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.hamburger-icon::before {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: 0;
+  width: 37px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.hamburger-icon::after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: 0;
+  width: 37px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.nav-blur {
+  backdrop-filter: blur(20px);
+}
+
 .dark-overlay::after {
   position: absolute;
   content: "";
@@ -61,6 +103,15 @@ body {
   height: calc(100% - 80px);
   width: 3px;
 }
+
+@media only screen and (max-width: 767px) {
+  .timeline-box {
+    left: 0;
+    transform: translateX(0);
+    height: calc(100% - 40px);
+  }
+}
+
 .timeline-line {
   height: 100%;
   width: 100%;
@@ -83,8 +134,8 @@ body {
   transition: top 0.05s ease;
 }
 
-.h-full-130px {
-  height: calc(100vh + 130px);
+.h-full-140px {
+  height: calc(100vh + 140px);
 }
 
 .list-bullet::before {
@@ -95,6 +146,12 @@ body {
   height: 2px;
   width: 7px;
   background-color: #000000;
+}
+
+@media only screen and (max-width: 767px) {
+  .list-bullet::before {
+    top: 14px;
+  }
 }
 
 .flex-important {

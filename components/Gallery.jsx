@@ -36,7 +36,7 @@ const Gallery = () => {
         <div className="flex flex-wrap justify-center">
           {slides.map((slide, idx) => (
             <div
-              className="relative w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 p-2"
+              className="relative w-1/3 md:w-1/4 lg:w-1/6 p-1 md:p-2"
               key={idx}
             >
               <div className="relative flex pb-[100%] w-full overflow-hidden rounded-lg">
@@ -46,7 +46,6 @@ const Gallery = () => {
                   fill
                   style={{ objectFit: "cover" }}
                   className="cursor-pointer"
-                  // id={`g-${idx}`}
                   onClick={() => openLightBox(idx)}
                 />
               </div>

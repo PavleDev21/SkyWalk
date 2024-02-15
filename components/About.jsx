@@ -39,7 +39,7 @@ const About = () => {
       style={{
         backgroundImage: "url('/images/vertical_backgorund_test.jpeg')",
       }}
-      className="relative bg-no-repeat	bg-cover bg-center blured-bg py-24"
+      className="relative bg-no-repeat	bg-cover bg-center blured-bg py-24 overflow-hidden"
     >
       <Wrapper className="text-center">
         <h2 className="text-5xl font-bold text-center relative z-10 pb-16 pt-8">

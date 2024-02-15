@@ -3,7 +3,7 @@ import React from "react"
 const BookButton = ({ className, dark, size = "lg" }) => {
   const sizeStyles = {
     lg: "text-2xl px-5 py-3 min-w-60",
-    md: "text-xl px-4 py-3 min-w-48",
+    md: "text-2xl md:text-xl px-5 md:px-4 py-3 min-w-60 md:min-w-48",
   }
 
   const sizeClass = sizeStyles[size] || sizeStyles.lg
