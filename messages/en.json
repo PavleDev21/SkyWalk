@@ -1,0 +1,96 @@
+{
+  "Index": {
+    "title": "SkyWalk Biokovo 4X4 Tour",
+    "description": "Experience the thrill of Biokovo Mountain Skywalk Tour. Join us for an unforgettable journey through picturesque landscapes, encounter wild horses, and witness the majestic views that span across islands and horizon. Book your adventure today!"
+  },
+  "Navigation": {
+    "about": "About",
+    "tour_plan": "Tour Plan",
+    "pricing": "Pricing",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "HeroBanner": {
+    "title": "SKYWALK 4X4 TOUR",
+    "text": "Experience the magnificent beauty of the mountain in Biokovo Nature Park."
+  },
+  "Introduction": {
+    "text": "Ready for an unforgettable day out? Hop into our Land Rover Defender and let's hit the road! We've got scenic drives, wild horses, and even a walk in the clouds waiting for you."
+  },
+  "AdventureTimeline": {
+    "title": "Your Adventure Timeline",
+    "cards": {
+      "land_rover": {
+        "title": "Tour in Land Rover Defender",
+        "text": "This 4X4 half-day tour with air conditioned Land Rover defender will take you on a scenic drive passing through the picturesque Adriatic coast into the Biokovo Nature Park."
+      },
+      "biokovo": {
+        "title": "Biokovo Mountain",
+        "text": "Biokovo Mountain, a natural wonder where the sea meets the sky, offers a striking landscape of diverse flora and panoramic views. Its rugged peaks and rich biodiversity provide a mesmerizing backdrop for nature enthusiasts and hikers alike."
+      },
+      "horses": {
+        "title": "Wild horses",
+        "text": "In addition to numerous wild animals, small herds of wild horses also live on mount Biokovo.With a little bit of visitor’s luck, one might also come across wild horses.They got used to visitors ,and do not run away from people."
+      },
+      "skywalk": {
+        "title": "Skywalk (1228m)",
+        "text": "Driving along the highest asphalted road on Croatia,we reach a new attraction - Skywalk (1228 m. above sea level). When you step on, it will take your breath away. The view of the Makarska Riviera, the coastal cities, the islands and the horizon will leave you speechless."
+      },
+      "st_george": {
+        "title": "St. George (1762m)",
+        "text": "Driving along the highest asphalted road on Croatia,we reach a new attraction - Skywalk (1228 m. above sea level). When you step on, it will take your breath away. The view of the Makarska Riviera, the coastal cities, the islands and the horizon will leave you speechless."
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Tour Includes",
+    "incl_list": {
+      "tickets": "Ticket to the Biokovo Nature Park",
+      "ride_skywalk": "Ride to Skywalk",
+      "sunset": "Sunset on Skywalk (only in the afternoon tours)",
+      "photo": "Photo stop with breathtaking views",
+      "homemade": "Homemade brandy, cakes and honey",
+      "ride_stgeorge": "Ride to St. George's Peak"
+    },
+    "itk_title": "Important to know",
+    "itk_list": {
+      "back_problems": "Not suitable for guests with back problems",
+      "children": "Children up to 7 years pay half price, and from 7 years old they pay full price",
+      "minimum_age": "Minimum age is 3 years",
+      "conditions": "On a foggy or rainy day trip may not be possible",
+      "clothes": "Bring warm clothes"
+    },
+    "itk_price": "Price"
+  },
+  "Gallery": {
+    "title": "Gallery"
+  },
+  "Reviews": {
+    "title": "Reviews",
+    "items": {
+      "first": {
+        "text": "Our tour of Biokovo Mountain was nothing short of magical. The Skywalk experience was breathtaking, and spotting wild horses was a dream come true. A must-do for any nature lover!",
+        "author": "Elena & Marco, Italy"
+      },
+      "second": {
+        "text": "As a hiking enthusiast, I was thrilled with the trails on Biokovo Mountain. The panoramic views were stunning, and the guide was incredibly knowledgeable. Highly recommend!",
+        "author": "Sarah L., United Kingdom"
+      },
+      "third": {
+        "text": "I've been on many tours, but this one stands out. The beauty of Makarska Riviera from the Skywalk is indescribable. It's a unique way to experience Croatia's natural wonders.",
+        "author": "Jovana, Serbia"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Book A Tour",
+    "viber_label": "Chat on Viber",
+    "whatsapp_label": "Chat on WhatsApp",
+    "phone_label": "Call Us"
+  },
+  "Footer": {
+    "made_by": "Website by",
+    "copyright": "Copyright"
+  },
+  "BookButton": "BOOK NOW"
+}

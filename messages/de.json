@@ -1,0 +1,96 @@
+{
+  "Index": {
+    "title": "SkyWalk Biokovo 4X4 Tour",
+    "description": "Erleben Sie den Nervenkitzel der Biokovo Berg Skywalk Tour. Begleiten Sie uns auf eine unvergessliche Reise durch malerische Landschaften, begegnen Sie wilden Pferden und bestaunen Sie die majestätischen Aussichten, die sich über Inseln und Horizont erstrecken. Buchen Sie Ihr Abenteuer noch heute!"
+  },
+  "Navigation": {
+    "about": "Über uns",
+    "tour_plan": "Tourplan",
+    "pricing": "Preise",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "HeroBanner": {
+    "title": "SKYWALK 4X4 TOUR",
+    "text": "Erlebe die großartige Schönheit des Berges im Naturpark Biokovo."
+  },
+  "Introduction": {
+    "text": "Bereit für einen unvergesslichen Tag? Steig in unseren Land Rover Defender und lass uns die Straße erobern! Wir haben malerische Fahrten, wilde Pferde und sogar einen Spaziergang in den Wolken für dich."
+  },
+  "AdventureTimeline": {
+    "title": "Dein Abenteuer-Zeitstrahl",
+    "cards": {
+      "land_rover": {
+        "title": "Tour im Land Rover Defender",
+        "text": "Diese halbtägige 4X4-Tour mit klimatisiertem Land Rover Defender führt dich auf einer malerischen Fahrt vorbei an der malerischen Adriaküste in den Naturpark Biokovo."
+      },
+      "biokovo": {
+        "title": "Biokovo Berg",
+        "text": "Der Biokovo Berg, ein Naturwunder, wo das Meer den Himmel trifft, bietet eine eindrucksvolle Landschaft mit vielfältiger Flora und Panoramablicken. Seine zerklüfteten Gipfel und die reiche Biodiversität bieten eine faszinierende Kulisse für Naturfreunde und Wanderer gleichermaßen."
+      },
+      "horses": {
+        "title": "Wilde Pferde",
+        "text": "Neben zahlreichen wilden Tieren leben auch kleine Herden wilder Pferde auf dem Berg Biokovo. Mit ein bisschen Glück der Besucher kann man auch auf wilde Pferde treffen. Sie haben sich an Besucher gewöhnt und laufen nicht vor Menschen davon."
+      },
+      "skywalk": {
+        "title": "Skywalk (1228m)",
+        "text": "Auf der höchsten asphaltierten Straße Kroatiens fahren wir zu einer neuen Attraktion - dem Skywalk (1228 m über dem Meeresspiegel). Wenn du darauf trittst, wird es dir den Atem rauben. Der Blick auf die Makarska Riviera, die Küstenstädte, die Inseln und den Horizont wird dich sprachlos machen."
+      },
+      "st_george": {
+        "title": "St. Georg (1762m)",
+        "text": "Auf der höchsten asphaltierten Straße Kroatiens erreichen wir eine neue Attraktion - den Skywalk (1228 m über dem Meeresspiegel). Wenn du darauf trittst, wird es dir den Atem rauben. Der Blick auf die Makarska Riviera, die Küstenstädte, die Inseln und den Horizont wird dich sprachlos machen."
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Tour beinhaltet",
+    "incl_list": {
+      "tickets": "Eintritt in den Naturpark Biokovo",
+      "ride_skywalk": "Fahrt zum Skywalk",
+      "sunset": "Sonnenuntergang auf dem Skywalk (nur bei Nachmittagstouren)",
+      "photo": "Fotostopp mit atemberaubenden Aussichten",
+      "homemade": "Hausgemachter Schnaps, Kuchen und Honig",
+      "ride_stgeorge": "Fahrt zum Gipfel des St. Georg"
+    },
+    "itk_title": "Wichtig zu wissen",
+    "itk_list": {
+      "back_problems": "Nicht geeignet für Gäste mit Rückenproblemen",
+      "children": "Kinder bis 7 Jahre zahlen den halben Preis, ab 7 Jahren den vollen Preis",
+      "minimum_age": "Mindestalter ist 3 Jahre",
+      "conditions": "Bei nebligem oder regnerischem Wetter kann die Reise möglicherweise nicht stattfinden",
+      "clothes": "Warme Kleidung mitbringen"
+    },
+    "itk_price": "Preis"
+  },
+  "Gallery": {
+    "title": "Galerie"
+  },
+  "Reviews": {
+    "title": "Bewertungen",
+    "items": {
+      "first": {
+        "text": "Unsere Tour des Biokovo Berges war einfach magisch. Das Skywalk-Erlebnis war atemberaubend, und wilde Pferde zu sehen, war ein Traum, der wahr wurde. Ein Muss für jeden Naturliebhaber!",
+        "author": "Elena & Marco, Italien"
+      },
+      "second": {
+        "text": "Als Wanderbegeisterte war ich von den Wegen auf dem Biokovo Berg begeistert. Die Panoramaaussichten waren umwerfend, und der Führer war unglaublich sachkundig. Sehr zu empfehlen!",
+        "author": "Sarah L., Vereinigtes Königreich"
+      },
+      "third": {
+        "text": "Ich war schon auf vielen Touren, aber diese sticht heraus. Die Schönheit der Makarska Riviera vom Skywalk aus ist unbeschreiblich. Es ist eine einzigartige Möglichkeit, Kroatiens Naturwunder zu erleben.",
+        "author": "Jovana, Serbien"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Tour Buchen",
+    "viber_label": "Chat auf Viber",
+    "whatsapp_label": "Chat auf WhatsApp",
+    "phone_label": "Ruf uns an"
+  },
+  "Footer": {
+    "made_by": "Webseite von",
+    "copyright": "Urheberrecht"
+  },
+  "BookButton": "JETZT BUCHEN"
+}
