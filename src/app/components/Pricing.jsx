@@ -53,15 +53,12 @@ const Pricing = ({ messages, bookButtonText }) => {
           {messages.Pricing.title}
         </h3>
         <div className="pb-12 md:pb-0 md:w-1/2">
-          <video
-            className="rounded-lg h-[500px] w-[350px] object-cover"
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src="/videos/1080p_SkyWalk_Short.mp4" type="video/mp4" />
-          </video>
+          <div className="rounded-lg h-[500px] w-[350px] overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://player.vimeo.com/video/916495403?autoplay=1&muted=1&loop=1&background=1"
+            ></iframe>
+          </div>
         </div>
         <div className="md:w-1/2 md:pl-12">
           <h3 className="text-5xl md:text-4xl font-semibold text-black pb-10 hidden md:flex">
