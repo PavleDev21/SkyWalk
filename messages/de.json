@@ -51,9 +51,8 @@
     "incl_list": {
       "tickets": "Eintritt in den Naturpark Biokovo",
       "ride_skywalk": "Fahrt zum Skywalk",
-      "sunset": "Sonnenuntergang auf dem Skywalk (nur bei Nachmittagstouren)",
       "photo": "Fotostopp mit atemberaubenden Aussichten",
-      "homemade": "Hausgemachter Schnaps, Kuchen und Honig",
+      "homemade": "Willkommensgetränk",
       "ride_stgeorge": "Fahrt zum Gipfel des St. Georg"
     },
     "itk_title": "Wichtig zu wissen",
@@ -68,6 +67,7 @@
   },
   "Gallery": {
     "title": "Galerie",
+    "facebook": "Weitere Bilder auf unserer Facebook-Seite",
     "images": {
       "img01": "Besucher auf der gläsernen Aussichtsplattform Skywalk über dem Biokovo-Gebirge mit Wolken darunter",
       "img02": "Touristen und ein Hund auf der gläsernen Skywalk-Plattform mit weitem Blick auf das Meer und die Küste",

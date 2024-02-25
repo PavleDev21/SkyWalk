@@ -51,9 +51,8 @@
     "incl_list": {
       "tickets": "Ulaznica za Park prirode Biokovo",
       "ride_skywalk": "Vožnja do Skywalk-a",
-      "sunset": "Zalazak sunca na Skywalku (samo u popodnevnim turama)",
       "photo": "Stanka za fotografiranje s prekrasnim pogledima",
-      "homemade": "Domaća rakija, kolači i med",
+      "homemade": "Piće dobrodošlice",
       "ride_stgeorge": "Vožnja do vrha Sv. Jure"
     },
     "itk_title": "Važno je znati",
@@ -68,6 +67,7 @@
   },
   "Gallery": {
     "title": "Galerija",
+    "facebook": "Više slika na našoj Facebook stranici",
     "images": {
       "img01": "Posjetitelji na staklenoj vidikovci Skywalk iznad planine Biokovo s oblacima ispod",
       "img02": "Turisti i pas na staklenoj platformi Skywalk s prostranim pogledom na more i obalu",

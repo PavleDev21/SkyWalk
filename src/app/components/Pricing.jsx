@@ -55,8 +55,9 @@ const Pricing = ({ messages, bookButtonText }) => {
         <div className="pb-12 md:pb-0 md:w-1/2">
           <div className="rounded-lg h-[500px] w-[350px] overflow-hidden">
             <iframe
+              sandbox="allow-same-origin allow-scripts allow-popups"
               className="w-full h-full"
-              src="https://player.vimeo.com/video/916495403?autoplay=1&muted=1&loop=1&background=1"
+              src="https://player.vimeo.com/video/916495403?autoplay=1&muted=1&loop=1&background=1&?api=1"
             ></iframe>
           </div>
         </div>

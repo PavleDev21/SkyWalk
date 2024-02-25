@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import LightBox from "./LightBox"
 import Wrapper from "./Wrapper"
 import Image from "next/image"
+import Link from "next/link"
 
 const Gallery = ({ messages }) => {
   const [isLightBoxOpen, setIsLightBoxOpen] = useState(false)
@@ -84,7 +85,7 @@ const Gallery = ({ messages }) => {
     >
       <Wrapper className="z-10">
         <h2 className="text-4xl text-white text-center font-semibold pb-14">
-          {messages.Gallery.images.title}
+          {messages.Gallery.title}
         </h2>
         <div className="flex flex-wrap justify-center">
           {slides.map((slide, idx) => (
@@ -104,6 +105,16 @@ const Gallery = ({ messages }) => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center pt-12">
+          <Link
+            target="_blank"
+            href="https://www.facebook.com/skywalkbiokovosinjal"
+            className="bg-white text-black flex gap-4 items-center px-4 py-2 rounded-lg"
+          >
+            <img src="/icons/facebook.png" className="w-10" alt="viber icon" />
+            {messages.Gallery.facebook}
+          </Link>
         </div>
         <LightBox
           slides={slides}

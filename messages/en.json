@@ -51,9 +51,8 @@
     "incl_list": {
       "tickets": "Ticket to the Biokovo Nature Park",
       "ride_skywalk": "Ride to Skywalk",
-      "sunset": "Sunset on Skywalk (only in the afternoon tours)",
       "photo": "Photo stop with breathtaking views",
-      "homemade": "Homemade brandy, cakes and honey",
+      "homemade": "Welcome drink",
       "ride_stgeorge": "Ride to St. George's Peak"
     },
     "itk_title": "Important to know",
@@ -68,6 +67,7 @@
   },
   "Gallery": {
     "title": "Gallery",
+    "facebook": "More pictures on our Facebook page",
     "images": {
       "img01": "Visitors on the Skywalk glass viewing platform over Biokovo Mountain with clouds below",
       "img02": "Tourists and a dog on the Skywalk glass platform with expansive views of the sea and coast",
