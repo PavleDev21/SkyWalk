@@ -1,8 +1,114 @@
 {
   "Index": {
-    "title": "Hello"
+    "title": "SkyWalk Biokovo 4X4 Tour",
+    "description": "Pridružite se našoj turi Skywalk Makarska za uzbudljivu avanturu na vrhu planine Biokovo. Doživite zadivljujuće poglede na Jadransko more, susret s divljim konjima i istražite ljepotu prirode Hrvatske u Safariju Land Roverom. Savršeno za obitelji, parove i solo istraživače koji žele otkriti srce Makarske rivijere. Rezervirajte svoju nezaboravnu avanturu danas!",
+    "keywords": "Tura Skywalk Makarska, Avantura planina Biokovo, Ture prirodom Hrvatske, Safari Land Rover Hrvatska, Divlji konji Biokovo, Vidikovac Skywalk, Aktivnosti na otvorenom Makarska, Park prirode Biokovo, Scenska vožnja Hrvatska, Pogledi Makarska Rivijera"
+  },
+  "LocaleSwitcher": {
+    "label": "Promijeni jezik"
+  },
+  "Navigation": {
+    "about": "O nama",
+    "tour_plan": "Plan ture",
+    "pricing": "Cijene",
+    "gallery": "Galerija",
+    "contact": "Kontakt"
+  },
+  "HeroBanner": {
+    "title": "SKYWALK 4X4 TOUR",
+    "text": "Doživite veličanstvenu ljepotu planine u Parku prirode Biokovo."
   },
   "Introduction": {
-    "text": "Ready for an unforgettable day out? Hop into our Land Rover Defender and let's hit the road! We've got scenic drives, wild horses, and even a walk in the clouds waiting for you."
-  }
+    "text": "Spremni za nezaboravan dan? Uskočite u naš Land Rover Defender i krenimo! Čekaju nas slikovite vožnje, divlji konji i čak šetnja po oblacima."
+  },
+  "AdventureTimeline": {
+    "title": "Vremenska linija vaše avanture",
+    "cards": {
+      "land_rover": {
+        "title": "Tura u Land Rover Defenderu",
+        "text": "Ova poludnevna tura s klimatiziranim Land Rover Defenderom odvest će vas na slikovitu vožnju koja prolazi kroz slikovitu obalu Jadrana do Parka prirode Biokovo."
+      },
+      "biokovo": {
+        "title": "Planina Biokovo",
+        "text": "Planina Biokovo, prirodno čudo gdje se more susreće s nebom, nudi zadivljujući krajolik raznolike flore i panoramskih pogleda. Njegovi strmoglavi vrhovi i bogata biološka raznolikost pružaju hipnotizirajuću pozadinu za ljubitelje prirode i planinare."
+      },
+      "horses": {
+        "title": "Divlji konji",
+        "text": "Osim brojnih divljih životinja, na planini Biokovo također žive male čete divljih konja. S malo sreće posjetitelja, može se dogoditi da naiđu i na divlje konje. Navikli su na posjetitelje i ne bježe od ljudi."
+      },
+      "skywalk": {
+        "title": "Skywalk (1228m)",
+        "text": "Vozeći se najvišom asfaltiranom cestom u Hrvatskoj, dolazimo do nove atrakcije - Skywalka (1228 m nadmorske visine). Kada stupite na njega, oduzet će vam dah. Pogled na Makarsku rivijeru, obalne gradove, otoke i horizont ostavit će vas bez riječi."
+      },
+      "st_george": {
+        "title": "Sv. Jure (1762m)",
+        "text": "Vozeći se najvišom asfaltiranom cestom u Hrvatskoj, dolazimo do nove atrakcije - Skywalka (1228 m nadmorske visine). Kada stupite na njega, oduzet će vam dah. Pogled na Makarsku rivijeru, obalne gradove, otoke i horizont ostavit će vas bez riječi."
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Tura uključuje",
+    "incl_list": {
+      "tickets": "Ulaznica za Park prirode Biokovo",
+      "ride_skywalk": "Vožnja do Skywalk-a",
+      "sunset": "Zalazak sunca na Skywalku (samo u popodnevnim turama)",
+      "photo": "Stanka za fotografiranje s prekrasnim pogledima",
+      "homemade": "Domaća rakija, kolači i med",
+      "ride_stgeorge": "Vožnja do vrha Sv. Jure"
+    },
+    "itk_title": "Važno je znati",
+    "itk_list": {
+      "back_problems": "Nije prikladno za goste s problemima s leđima",
+      "children": "Djeca do 7 godina plaćaju pola cijene, a od 7 godina plaćaju punu cijenu",
+      "minimum_age": "Minimalna dob je 3 godine",
+      "conditions": "U maglovit ili kišovit dan putovanje možda neće biti moguće",
+      "clothes": "Ponesite toplu odjeću"
+    },
+    "itk_price": "Cijena"
+  },
+  "Gallery": {
+    "title": "Galerija",
+    "images": {
+      "img01": "Posjetitelji na staklenoj vidikovci Skywalk iznad planine Biokovo s oblacima ispod",
+      "img02": "Turisti i pas na staklenoj platformi Skywalk s prostranim pogledom na more i obalu",
+      "img03": "Turisti interagiraju s prijateljskim magarcem pored vozila ture Skywalk na Biokovu",
+      "img04": "Obitelj stoji s slikovitim pogledom na Makarsku rivijeru s planine Biokovo",
+      "img05": "Magarac na stjenovitom terenu u Parku prirode Biokovo",
+      "img06": "Dijete skače od radosti na staklenom mostu Skywalk na Biokovu s pogledom na nebo i more",
+      "img07": "Land Rover Defender s divljim konjima tijekom Safarija na Biokovu",
+      "img08": "Grupa turista uživa u pikniku na planini Biokovo s Land Rover Defenderom u pozadini",
+      "img09": "Dirljiv trenutak dok mlada žena pomaže starijoj ženi da se popne na Biokovo",
+      "img10": "Obitelj pozira na stjenovitom vrhu Biokova s jasno plavim nebom",
+      "img11": "Žena s podignutim rukama uživa u pogledu s planine Biokovo s pogledom na Jadransko more",
+      "img12": "Pogled na zalazak sunca s vidikovca Skywalk na planini Biokovo s staklenom ogradom i horizontom mora"
+    }
+  },
+  "Reviews": {
+    "title": "Recenzije",
+    "items": {
+      "first": {
+        "text": "Naša tura planinom Biokovo bila je ništa manje od čarobne. Iskustvo Skywalka bilo je zadivljujuće, a susret s divljim konjima ostvario je san. Obavezno za svakog ljubitelja prirode!",
+        "author": "Elena & Marco, Italija"
+      },
+      "second": {
+        "text": "Kao ljubitelj planinarenja, bio sam oduševljen stazama na planini Biokovo. Panoramski pogledi bili su zapanjujući, a vodič izuzetno obrazovan. Visoko preporučujem!",
+        "author": "Sarah L., Ujedinjeno Kraljevstvo"
+      },
+      "third": {
+        "text": "Bila sam na mnogim turama, ali ova se ističe. Ljepota Makarske rivijere s Skywalka neopisiva je. Ovo je jedinstven način da doživite prirodna čuda Hrvatske.",
+        "author": "Jovana, Srbija"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Rezervirajte turu",
+    "viber_label": "Razgovarajte na Viberu",
+    "whatsapp_label": "Razgovarajte na WhatsAppu",
+    "phone_label": "Pozovite nas"
+  },
+  "Footer": {
+    "made_by": "Web stranica od",
+    "copyright": "Autorska prava"
+  },
+  "BookButton": "REZERVIRAJTE SADA"
 }

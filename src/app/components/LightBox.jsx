@@ -32,7 +32,7 @@ const LightBox = ({ slides, isOpened, setIsOpened, activeIndex }) => {
       item && (
         <animated.div
           style={style}
-          className="fixed top-0 pt-[65px] pb-[130px] left-0 bg-black-transparent h-screen w-full"
+          className="fixed top-0 pt-[65px] pb-[130px] left-0 bg-black-transparent h-[100dvh] w-full"
         >
           <div className="absolute top-5 right-5 flex justify-center items-center gap-5">
             <button
@@ -88,6 +88,7 @@ const LightBox = ({ slides, isOpened, setIsOpened, activeIndex }) => {
                   <div className="relative w-full h-full swiper-zoom-container">
                     <Image
                       src={slide.src}
+                      alt={slide.alt}
                       fill
                       style={{ objectFit: "contain" }}
                       className="ss:max-w-[80%] max-w-[800px] mx-auto"

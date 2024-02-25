@@ -1,7 +1,11 @@
 {
   "Index": {
     "title": "SkyWalk Biokovo 4X4 Tour",
-    "description": "Experience the thrill of Biokovo Mountain Skywalk Tour. Join us for an unforgettable journey through picturesque landscapes, encounter wild horses, and witness the majestic views that span across islands and horizon. Book your adventure today!"
+    "description": "Join our Makarska Skywalk Tour for an exhilarating adventure atop Biokovo Mountain. Experience breathtaking views of the Adriatic Sea, encounter wild horses, and explore the beauty of Croatia's nature in a Land Rover Safari. Perfect for families, couples, and solo explorers looking to discover the heart of the Makarska Riviera. Book your unforgettable journey today!",
+    "keywords": "Makarska Skywalk Tour, Biokovo Mountain Adventure, Croatia Nature Tours, Land Rover Safari Croatia, Wild Horses Biokovo, Skywalk Viewing Platform, Outdoor Activities Makarska, Biokovo Nature Park, Scenic Drives Croatia, Makarska Riviera Views"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language"
   },
   "Navigation": {
     "about": "About",
@@ -63,7 +67,21 @@
     "itk_price": "Price"
   },
   "Gallery": {
-    "title": "Gallery"
+    "title": "Gallery",
+    "images": {
+      "img01": "Visitors on the Skywalk glass viewing platform over Biokovo Mountain with clouds below",
+      "img02": "Tourists and a dog on the Skywalk glass platform with expansive views of the sea and coast",
+      "img03": "Tourists interacting with a friendly donkey next to a Skywalk tour vehicle on Biokovo Mountain",
+      "img04": "Family standing with a picturesque view of Makarska Riviera from Biokovo Mountain",
+      "img05": "Donkey on rocky terrain in Biokovo Nature Park",
+      "img06": "Child jumping with joy on the Skywalk glass bridge on Biokovo Mountain with a view of the sky and sea",
+      "img07": "Land Rover Defender with wild horses during Biokovo Mountain Safari",
+      "img08": "Group of tourists enjoying a picnic on Biokovo Mountain with a Land Rover Defender in the background",
+      "img09": "A heartwarming moment as a young woman helps an elderly woman up on Biokovo Mountain",
+      "img10": "Family posing on the rocky summit of Biokovo Mountain with a clear blue sky",
+      "img11": "Woman with raised arms enjoying the view from Biokovo Mountain overlooking the Adriatic Sea",
+      "img12": "Sunset view from the Biokovo Mountain Skywalk with a glass railing and the sea horizon"
+    }
   },
   "Reviews": {
     "title": "Reviews",

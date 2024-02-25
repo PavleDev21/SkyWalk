@@ -37,6 +37,64 @@ body {
   }
 }
 
+.language-selector__container {
+  position: relative;
+  height: 32px;
+  width: 90px;
+}
+
+.language-selector__container select {
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #3e3d40;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  height: 32px;
+  min-width: 55px;
+  padding: 0 14px 0 10px;
+  position: absolute;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 90px;
+}
+
+.language-selector__container label {
+  position: relative;
+}
+
+.language-selector__container label::after {
+  content: "";
+  left: 74px;
+  top: 14px;
+  padding: 0 0 2px;
+  position: absolute;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-left: 3.5px solid transparent;
+  border-right: 3.5px solid transparent;
+  border-top: 5px solid #000;
+  z-index: 1;
+}
+
+.language-selector__container label::before {
+  content: "";
+  left: 68px;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  z-index: 1;
+}
+
 .hamburger-icon {
   position: absolute;
   top: 50%;
@@ -219,4 +277,42 @@ body {
 
 .thumb-slide-active::after {
   opacity: 1;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 70px;
+  height: 26px;
+  background: #304754;
+  border-radius: 50px;
+  --c: no-repeat radial-gradient(farthest-side, #000 92%, #0000);
+  --s: 18px 18px;
+  -webkit-mask: var(--c) left 4px top 50%, var(--c) center,
+    var(--c) right 4px top 50%, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: l1 1.5s infinite;
+}
+@keyframes l1 {
+  0% {
+    -webkit-mask-size: 0 0, 0 0, 0 0, auto;
+  }
+  16.67% {
+    -webkit-mask-size: var(--s), 0 0, 0 0, auto;
+  }
+  33.33% {
+    -webkit-mask-size: var(--s), var(--s), 0 0, auto;
+  }
+  50% {
+    -webkit-mask-size: var(--s), var(--s), var(--s), auto;
+  }
+  66.67% {
+    -webkit-mask-size: 0 0, var(--s), var(--s), auto;
+  }
+  83.33% {
+    -webkit-mask-size: 0 0, 0 0, var(--s), auto;
+  }
+  100% {
+    -webkit-mask-size: 0 0, 0 0, 0 0, auto;
+  }
 }

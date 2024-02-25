@@ -1,7 +1,11 @@
 {
   "Index": {
     "title": "SkyWalk Biokovo 4X4 Tour",
-    "description": "Erleben Sie den Nervenkitzel der Biokovo Berg Skywalk Tour. Begleiten Sie uns auf eine unvergessliche Reise durch malerische Landschaften, begegnen Sie wilden Pferden und bestaunen Sie die majestätischen Aussichten, die sich über Inseln und Horizont erstrecken. Buchen Sie Ihr Abenteuer noch heute!"
+    "description": "Begleiten Sie uns auf unserer Makarska Skywalk Tour für ein aufregendes Abenteuer auf dem Gipfel des Biokovo-Berges. Erleben Sie atemberaubende Aussichten auf die Adria, begegnen Sie wilden Pferden und entdecken Sie die Schönheit der kroatischen Natur in einem Land Rover Safari. Perfekt für Familien, Paare und Alleinreisende, die das Herz der Makarska Riviera entdecken möchten. Buchen Sie heute Ihre unvergessliche Reise!",
+    "keywords": "Makarska Skywalk Tour, Abenteuer Biokovo-Berg, Naturtouren Kroatien, Land Rover Safari Kroatien, Wilde Pferde Biokovo, Skywalk Aussichtsplattform, Outdoor-Aktivitäten Makarska, Naturpark Biokovo, Panoramafahrten Kroatien, Aussichten Makarska Riviera"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern"
   },
   "Navigation": {
     "about": "Über uns",
@@ -63,7 +67,21 @@
     "itk_price": "Preis"
   },
   "Gallery": {
-    "title": "Galerie"
+    "title": "Galerie",
+    "images": {
+      "img01": "Besucher auf der gläsernen Aussichtsplattform Skywalk über dem Biokovo-Gebirge mit Wolken darunter",
+      "img02": "Touristen und ein Hund auf der gläsernen Skywalk-Plattform mit weitem Blick auf das Meer und die Küste",
+      "img03": "Touristen interagieren mit einem freundlichen Esel neben einem Skywalk-Tourfahrzeug auf dem Biokovo-Berg",
+      "img04": "Familie steht mit malerischem Blick auf die Makarska Riviera vom Biokovo-Gebirge",
+      "img05": "Esel auf felsigem Gelände im Naturpark Biokovo",
+      "img06": "Kind springt vor Freude auf der gläsernen Skywalk-Brücke auf dem Biokovo-Berg mit Blick auf Himmel und Meer",
+      "img07": "Land Rover Defender mit wilden Pferden während der Biokovo-Bergsafari",
+      "img08": "Gruppe von Touristen genießt ein Picknick auf dem Biokovo-Berg mit einem Land Rover Defender im Hintergrund",
+      "img09": "Ein herzerwärmender Moment, als eine junge Frau einer älteren Frau auf dem Biokovo-Berg hilft",
+      "img10": "Familie posiert auf dem felsigen Gipfel des Biokovo-Gebirges mit klarem blauem Himmel",
+      "img11": "Frau mit erhobenen Armen genießt die Aussicht vom Biokovo-Berg mit Blick auf die Adria",
+      "img12": "Sonnenuntergangsblick vom Skywalk des Biokovo-Berges mit Glasgeländer und dem Horizont des Meeres"
+    }
   },
   "Reviews": {
     "title": "Bewertungen",
@@ -77,7 +95,7 @@
         "author": "Sarah L., Vereinigtes Königreich"
       },
       "third": {
-        "text": "Ich war schon auf vielen Touren, aber diese sticht heraus. Die Schönheit der Makarska Riviera vom Skywalk aus ist unbeschreiblich. Es ist eine einzigartige Möglichkeit, Kroatiens Naturwunder zu erleben.",
+        "text": "Ich habe viele Touren gemacht, aber diese sticht heraus. Die Schönheit der Makarska Riviera vom Skywalk aus ist unbeschreiblich. Es ist eine einzigartige Möglichkeit, die Naturwunder Kroatiens zu erleben.",
         "author": "Jovana, Serbien"
       }
     }

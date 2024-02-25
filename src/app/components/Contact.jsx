@@ -14,7 +14,7 @@ const Contact = () => {
           <ul className="flex flex-wrap justify-center gap-4 align-center">
             <li>
               <a
-                href="viber://chat?number=1234567894"
+                href="viber://chat?number=+385922870092"
                 className="bg-white text-black flex gap-4 items-center px-4 py-2 rounded-lg"
               >
                 <img src="/icons/viber.png" className="w-10" alt="viber icon" />
@@ -23,7 +23,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://wa.me/38163345344"
+                href="https://wa.me/385922870092"
                 className="bg-white text-black flex gap-4 items-center px-4 py-2 rounded-lg"
               >
                 <img
@@ -36,7 +36,7 @@ const Contact = () => {
             </li>
           </ul>
           <a
-            href="tel:+4733378901"
+            href="tel:+385922870092"
             className="bg-white text-black flex gap-4 items-center px-4 py-2 rounded-lg"
           >
             <img

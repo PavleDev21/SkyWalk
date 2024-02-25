@@ -2,17 +2,16 @@
 import Image from "next/image"
 import { useSpring, animated } from "@react-spring/web"
 import { useInView } from "react-intersection-observer"
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
+import { TouchContext } from "../[locale]/page"
 
 const TimelineCard = ({ imgSrc, imgAlt, title, text, reversed }) => {
-  const [width, setWidth] = useState()
+  const { isMobile } = useContext(TouchContext)
 
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.5, // Customize this value based on when you want the animation to start
   })
-
-  const isMobile = width < 768
 
   const translateSide = isMobile
     ? "translateX(100px)"
@@ -24,17 +23,6 @@ const TimelineCard = ({ imgSrc, imgAlt, title, text, reversed }) => {
     opacity: inView ? 1 : 0,
     transform: inView ? "translateX(0)" : translateSide,
   })
-
-  function handleWindowSizeChange() {
-    setWidth(window.innerWidth)
-  }
-  useEffect(() => {
-    setWidth(window.innerWidth)
-    window.addEventListener("resize", handleWindowSizeChange)
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange)
-    }
-  }, [])
 
   return (
     <animated.div

@@ -14,6 +14,7 @@ const Footer = ({ className }) => {
             src="/images/skywalk_logo.png"
             fill
             style={{ objectFit: "contain" }}
+            alt="skywalk logo"
           />
         </Link>
         <p className="text-black text-base md:text-sm">

@@ -39,6 +39,7 @@ const Testimonials = ({ messages }) => {
           <SwiperSlide className="flex-important gap-[10px] md:gap-9">
             <div className="w-[18px] md:w-[65px] h-[30px] md:h-[40px] relative">
               <Image
+                alt="quotation icon"
                 src="/icons/quotation.png"
                 style={{ objectFit: "contain" }}
                 fill
@@ -56,6 +57,7 @@ const Testimonials = ({ messages }) => {
           <SwiperSlide className="flex-important gap-[10px] md:gap-9">
             <div className="w-[18px] md:w-[65px] h-[30px] md:h-[40px] relative">
               <Image
+                alt="quotation icon"
                 src="/icons/quotation.png"
                 style={{ objectFit: "contain" }}
                 fill
@@ -73,6 +75,7 @@ const Testimonials = ({ messages }) => {
           <SwiperSlide className="flex-important gap-[10px] md:gap-9">
             <div className="w-[18px] md:w-[65px] h-[30px] md:h-[40px] relative">
               <Image
+                alt="quotation icon"
                 src="/icons/quotation.png"
                 style={{ objectFit: "contain" }}
                 fill
