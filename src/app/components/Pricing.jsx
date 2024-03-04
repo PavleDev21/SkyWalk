@@ -57,7 +57,7 @@ const Pricing = ({ messages, bookButtonText }) => {
             <iframe
               sandbox="allow-same-origin allow-scripts allow-popups"
               className="w-full h-full"
-              src="https://player.vimeo.com/video/916495403?autoplay=1&muted=1&loop=1&background=1&?api=1"
+              src="https://player.vimeo.com/video/916495403?autoplay=1&muted=1&playsinline=1&loop=1&background=1&?api=1"
             ></iframe>
           </div>
         </div>
